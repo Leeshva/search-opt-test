@@ -1,0 +1,11 @@
+package com.sample.demo1.mappers;
+
+import java.util.List;
+
+import com.sample.demo1.vo.Criteria;
+import com.sample.demo1.vo.Employee;
+
+public interface EmployeeMapper {
+	
+	List<Employee> searchEmployees(Criteria c);
+}
